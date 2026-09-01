@@ -1,0 +1,35 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Dependencies / build output (common across languages)
+node_modules/
+dist/
+build/
+out/
+target/
+vendor/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local scratch
+tmp/
+*.tmp
